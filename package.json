@@ -1,0 +1,37 @@
+{
+  "name": "Bookshelf",
+  "version": "0.0.2",
+  "description": "Bookshelf is a Chrome extension that makes it straight-forward to keep temporary bookmarks accessible.",
+  "dependencies": {},
+  "author": "Jo du Plessis",
+  "url": "http://www.joduplessis.com",
+  "email": "jo@joduplessis.com",
+  "repository": "",
+  "license": "",
+  "devDependencies": {
+    "browserify": "12.0.1",
+    "es6-promise": "3.0.2",
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
+    "gulp": "3.9.0",
+    "gulp-browserify": "0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-reactify": "^3.0.1",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.5.1",
+    "jest": "^20.0.4",
+    "jest-cli": "^0.8.2",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "reactify": "^1.1.1",
+    "socket.io": "^1.3.7"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "watch": "gulp watch"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Bookshelf",
+  "description": "A quick-access 'shelf' to keep temporary bookmarks on.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Bookshelf"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "<all_urls>",
+    "http://fonts.googleapis.com/",
+    "https://fonts.googleapis.com/"
+  ]
+}

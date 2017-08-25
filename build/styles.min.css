@@ -1,0 +1,81 @@
+body {
+  font-family: "Ubuntu", "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 0.8em;
+  margin: 0px;
+  padding: 0px;
+}
+#add {
+  border-top: 3px solid #DCE8EF;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0px;
+}
+#add #add_image {
+  cursor: pointer;
+}
+#add #add_text {
+  position: relative;
+  text-decoration: none;
+  font-size: 1em;
+  color: #e85548;
+  top: -7px;
+  padding-left: 10px;
+  cursor: pointer;
+  font-weight: 400;
+}
+#clear {
+  padding: 10px;
+  padding-top: 0px;
+  outline: none;
+  cursor: pointer;
+}
+#clear #clear_image {
+  cursor: pointer;
+}
+#clear #clear_text {
+  text-decoration: none;
+  position: relative;
+  font-size: 1em;
+  color: #e85548;
+  top: -7px;
+  padding-left: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+ul#bookmarks {
+  overflow: hidden;
+  list-style-type: none ;
+  margin: 0px;
+  padding: 0px;
+  width: 400px;
+  height: auto;
+}
+ul#bookmarks li {
+  border-bottom: 1px solid #DCE8EF;
+  display: block;
+  list-style-type: none ;
+  margin: 0px;
+  padding: 10px;
+}
+ul#bookmarks li:hover {
+  background: #FAFAFA;
+}
+ul#bookmarks li:last-child {
+  border: 0px;
+}
+ul#bookmarks li a {
+  text-decoration: none;
+  font-size: 0.9em;
+  outline: none;
+  font-weight: 300;
+  color: #304A60;
+}
+ul#bookmarks li a.title {
+  position: relative;
+  top: -3px;
+}
+ul#bookmarks li img.delete {
+  float: right;
+  cursor: pointer;
+}
